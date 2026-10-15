@@ -1,0 +1,9 @@
+{
+  "username": "学生姓名（与一卡通绑定的姓名）",
+  "password": "一卡通查询密码",
+  "customerCode": "学校客户代码（authorize 请求 URL 的 customerCode 参数，6 位数字）",
+  "outid": "学生学工号（/api/login 表单里的 outid 参数）",
+  "openid": "支付宝用户 ID，2088 开头（authorize 请求 redirect_uri 里的 openid/aliUid）",
+  "client_id": "ecard H5 应用 ID，32 位 hex（authorize 请求 URL 的 client_id 参数）",
+  "flag": "授权 flag（authorize 请求 redirect_uri 里的 flag 参数，形如 basicopengroupautobindecard_xxx）"
+}

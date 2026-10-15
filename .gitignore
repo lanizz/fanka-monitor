@@ -1,0 +1,16 @@
+# ===== 敏感信息与运行时数据（绝不上传）=====
+# config.json（账号密码）、cookies、消费明细、告警状态
+data/
+# 抓包数据（含 token、个人信息）
+capture.flows
+# 抓包导出的请求（含密码）
+curl.txt
+# 内部交接文档
+RESUME.md
+*.log
+mitmproxy-ca-cert.cer
+
+# ===== 系统与 Python =====
+.DS_Store
+__pycache__/
+*.pyc
